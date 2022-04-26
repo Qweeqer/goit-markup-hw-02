@@ -1,6 +1,120 @@
+:root {--text-color: #000;
+--hero-text: #fff;
+--background-color: #fff;
+--brand-color:#2196F3; 
+--button-color:#F5F4FA;
+--tel-color: #757575;}
 body {
     font-family: 'Raleway',
     sans-serif;
     font-family: 'Roboto',
     sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+/* <--Header--> */
+.header {width: 1600px;
+height: 80px;
+background-color: var(--background-color);
+}
+.logo-links {position: absolute;
+width: 145px;
+height: 31px;
+margin-left: 215px;
+margin-top: 24px;
+margin-bottom: 25px;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+letter-spacing: 0.03em;
+color: var(--text-color);
+text-decoration: none;}
+.style-web {color: var(--brand-color);}
+.links {margin-left: 453px;
+margin-top: 32px;
+display: flex;
+justify-content: space-between;
+flex-direction: row;
+position: absolute;
+width: 294px;
+height: 16px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+list-style: none;
+}
+.link {text-decoration: none;
+color: var(--text-color);}
+.link:hover,
+.link:focus {
+color: var(--brand-color);
+}
+.contacts{
+display: flex;
+flex-direction: row;
+list-style: none;
+}
+.mail{margin-top: 32px;
+margin-bottom: 32px;
+margin-left: 1078px;
+display: flex;
+justify-content: center;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;}
+.tel {margin-top: 32px;
+margin-bottom: 32px;
+margin-left: 50px;
+position: absolute;
+width: 122px;
+height: 16px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+color: var(--tel-color);}
+/* <--Main--> */
+.main {position: absolute;
+width: 1600px;
+height: 600px;
+background-color: #2F303A;}
+/* <--Hero--> */
+.hero-text{position: absolute;
+width: 696px;
+height: 120px;
+margin-left: 452px;
+padding-top: 200px;
+color: var(--button-color);
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 60px;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;}
+/* bg */
+.button {position: absolute;
+width: 200px;
+height: 50px;
+margin-left: 700px;
+margin-top: 430px;
+background: var(--button-color);
+box-shadow: 0px, 4px, 4px, rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+}
+.button:hover,
+.button:focus{
+    background-color: var(--brand-color);
+    color: var(--hero-text);
 }

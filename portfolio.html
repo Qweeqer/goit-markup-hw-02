@@ -9,19 +9,20 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
     <title>Portfolio</title>
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
 <!--Header-->
-<header>
-    <nav>
-        <a href="./index.html"><span>Web</span>Studio</a>
-        <ul>
-            <li><a href="./index.html">Студия</a></li>
-            <li><a href="./portfolio.html">Портфолио</a></li>
-            <li><a href="#">Контакты</a></li>
+<header class="header">
+    <nav class="header-nav">
+        <a class="logo" href="./index.html"><span class="style-web">Web</span>Studio</a>
+        <ul class="links">
+            <li><a class="link" href="./index.html">Студия</a></li>
+            <li><a class="link current" href="./portfolio.html">Портфолио</a></li>
+            <li><a class="link" href="#">Контакты</a></li>
         </ul>
     </nav>
-    <ul>
+    <ul class="contacts">
         <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
         <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
     </ul>
@@ -29,9 +30,9 @@
 <!--MainText-->
  <main>
     <section>
-        <h1>Портфолио</h1>
+        <h1 class="hiden">Портфолио</h1>
 <!-- Filters -->
-         <ul>
+         <ul >
              <li><button type="button">Все</button></li>
              <li><button type="button">Веб-сайты</button></li>
              <li><button type="button">Приложения</button></li>
@@ -90,7 +91,7 @@
  </main>  
  <!--Footer-->
 <footer class="footer">
-    <a href="./index.html"><span>Web</span>Studio</a>
+    <a class="link" href="./index.html"><span class="web-style">Web</span>Studio</a>
     <!--Address-->
     <address>
         <ul>
