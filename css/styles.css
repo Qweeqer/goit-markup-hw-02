@@ -1,9 +1,10 @@
 :root {--text-color: #000;
 --hero-text: #fff;
+--title:#212121;
 --background-color: #fff;
 --brand-color:#2196F3; 
 --button-color:#F5F4FA;
---tel-color: #757575;}
+--secondary-text: #757575;}
 body {
     font-family: 'Raleway',
     sans-serif;
@@ -82,7 +83,7 @@ font-weight: 500;
 font-size: 14px;
 line-height: 16px;
 letter-spacing: 0.02em;
-color: var(--tel-color);}
+color: var(--secondary-text);}
 /* <--Main--> */
 .main {position: absolute;
 width: 1600px;
@@ -118,3 +119,40 @@ border-radius: 4px;
     background-color: var(--brand-color);
     color: var(--hero-text);
 }
+/* Benifits */
+.hiden {opacity: 0;}
+.feature {
+width: 1170px;
+height: 101px;
+margin-top: 774px;
+margin-left: 215px;
+list-style: none;
+display: flex;
+justify-content: space-around;
+flex-direction: row;
+}
+.feature-item{
+width: 270px;
+height: 101px;
+display: flex;
+justify-content: space-between;
+flex-direction: row;
+flex-wrap: wrap;
+}
+.title{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--title);
+}
+.text{font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+color:var(--secondary-text)}
