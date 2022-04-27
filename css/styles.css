@@ -112,8 +112,10 @@ border-radius: 4px;
 width: 1170px;
 height: 101px;
 margin-top: 774px;
+display: flex;
+justify-content: center;
 margin-left: 215px;
-margin-right: 215px;
+
 }
 .hiden {opacity: 0;}
 .feature-list {
@@ -124,9 +126,9 @@ flex-direction: row;
 .feature-item{
 width: 270px;
 height: 101px;
-display: flex;
+display: inline;
 flex-direction: row;
-flex-wrap: wrap;
+justify-content: flex-start;
 margin-right: 30px;
 }
 .title{
@@ -155,7 +157,7 @@ margin-left: 215px;
 margin-top: 969px;
 position: absolute;
 }
-.section-title {
+.project-title {
 font-weight: 700;
 font-size: 36px;
 line-height: 42px;
@@ -171,7 +173,7 @@ list-style: none;
 padding-top: 50px;
 padding-left:  0px;
 }
-.project-item{margin-left: 30px;
+.project-item{margin-right: 30px;
 }
 /* Our team */
 .team {position: absolute;
@@ -179,6 +181,26 @@ width: 1600px;
 height: 648px;
 margin-left: 0px;
 margin-top: 1449px;
+padding-top: 94px;
 display: flex;
-justify-content: center;}
-
+justify-content: center;
+background-color: var(--button-color);
+}
+.team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title);
+}
+.team-list{padding-top: 186px;
+    position: absolute;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+.name{
+display: flex;
+justify-content: center;
+}
